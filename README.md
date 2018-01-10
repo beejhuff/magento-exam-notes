@@ -1,3 +1,11 @@
+# Introduction
+This repository was forked from Colin Murphy's excellent repo chronicling his preparation for the Magento Certified Developer examination. I found the notes incredibly useful and were often the first results to appear on Google when searching for a specific Magento quesiton.
+
+I wanted use Colin's work as a base for my own revision notes that aim to offer an even deeper understanding of the examination by offering extended answers drawn from my knowledge and bringing together various sources of knowledge.
+
+The remainder of this README are Colin's words. Thanks again Colin Murphy for your hard work.
+
+
 # Overview
 
 These are notes I compiled while studying for the Magento Certified Developer Exam.
