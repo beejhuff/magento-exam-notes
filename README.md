@@ -5,6 +5,9 @@ I wanted use Colin's work as a base for my own revision notes that aim to offer 
 
 The remainder of this README are Colin's words. Thanks again Colin Murphy for your hard work.
 
+# Colin's original repository here:
+https://github.com/colinmurphy/magento-exam-notes
+
 
 # Overview
 
