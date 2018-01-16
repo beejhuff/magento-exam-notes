@@ -76,20 +76,29 @@ For further information please read [Explain how Magento loads and manipulates c
 
 ### 5. Which class types have configured prefixes, and how does this relate to class overrides?
 
-Not too sure about this question but I think this is what it means:
+The 3 class prefixes are model, helper, block.
+In our config.xml when we rewrite we need put it under these 3 prefixes
+E.g.
 
-You can override classes in 2 ways:
+    <blocks>
+        <catalog>
+            <rewrite>
+                <list>New_Block_Class</list>
+            </rewrite>
+        </catalog>
+    </blocks>
 
-- Config Rewrite
-- Adding a class file relative in another codePool that is loaded beforehand.
-e.g. create app/code/local/Mage/Core/Model/Product.php to override Mage_Catalog_Model_Product
-
-This is not recommended but can be done due to the multiple paths used in set_include_path() in app/Mage.php.
-
+From: http://excellencemagentoblog.com/question/which-class-types-have-configured-prefixes-and-how-does-this-relate-to-class-overrides/
 
 ### 6. Which class types and files have explicit paths?
 
-Not sure what this means?
+
+   - Helpers
+   - Models
+   - Resource Models
+   - Blocks
+
+From: https://nathanmcbride.io/magento-certification-notes/basics/Magento-Configuration
 
 ### 7. What configuration parameters are available for event observers?
 
@@ -111,7 +120,9 @@ Name of the method called
 
 ### 8. What are the interface and configuration options for automatically fired events?
 
-This is registering an observer.
+"When a model is being initialized Magento fires events during the process which allows us to edit the model at a certain point or add some other additional functionality."
+
+From: https://nathanmcbride.io/magento-certification-notes/basics/Magento-Configuration
 
 ### 9. What is the structure of event observers, and how are properties accessed therein?
 

@@ -1,12 +1,17 @@
-# Introduction
-This repository was forked from Colin Murphy's excellent repo chronicling his preparation for the Magento Certified Developer examination. I found the notes incredibly useful and were often the first results to appear on Google when searching for a specific Magento quesiton.
+# Colin Murphy's original repository here:
+https://github.com/colinmurphy/magento-exam-notes
+
+# Introduction by Jonathan Holt
+This repository was forked from Colin Murphy's excellent repo chronicling his preparation for the Magento Certified Developer examination. I found the notes incredibly useful and were often the first results to appear on Google when searching for a specific Magento question.
 
 I wanted use Colin's work as a base for my own revision notes that aim to offer an even deeper understanding of the examination by offering extended answers drawn from my knowledge and bringing together various sources of knowledge.
 
-The remainder of this README are Colin's words. Thanks again Colin Murphy for your hard work.
+This repository aims to try to answer in sufficient detail every question contained in Magento's certification study guide, which can be found here:
 
-# Colin's original repository here:
-https://github.com/colinmurphy/magento-exam-notes
+http://info2.magento.com/rs/magentosoftware/images/Certification-Study-Guide-MCD-v1.pdf
+
+**Note:** The remainder of this README are Colin's words. Thanks again Colin Murphy for your hard work.
+
 
 
 # Overview
